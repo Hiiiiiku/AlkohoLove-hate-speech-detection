@@ -17,4 +17,4 @@ Service uses two methods to clasify comment as harmfull.
  For every word in review service counts Levenshtein distance. If word is classified as harmfull system checks if it is in white list. If it is, word in not hramfull. If not, word is harmfull. 
  - neural network
  
- This metod uses cnn model that was learning on 10000 polsih sentences from twitter. 
+ This metod uses cnn model that was learning on 10000 polsih posts from twitter. 
